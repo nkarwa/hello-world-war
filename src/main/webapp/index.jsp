@@ -5,6 +5,7 @@
 <body>
 	<h1>Hello World </h1>
 	<h2> New feature added for payment page</h2>
+	<h3> Feature added for order page </h3>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
