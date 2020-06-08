@@ -8,7 +8,7 @@
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
 	<build>
-            <finalName>hello-app</finalName>
+            <finalName>hello-app-${BUILD_NUMBER}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
@@ -17,9 +17,6 @@
 				<configuration>
 					<scanIntervalSeconds>0</scanIntervalSeconds>
 				</configuration>
-				<properties>
-                                        <build.number>SNAPSHOT</build.number>
-                                </properties>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
