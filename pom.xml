@@ -17,6 +17,9 @@
 				<configuration>
 					<scanIntervalSeconds>0</scanIntervalSeconds>
 				</configuration>
+				<properties>
+                                        <build.number>SNAPSHOT</build.number>
+                                </properties>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
